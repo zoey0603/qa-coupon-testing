@@ -47,6 +47,17 @@ Manual QA testing portfolio for a coupon checkout system.
 
 依據功能規格設計正常流程、異常流程與邊界值測試，記錄預期結果和實際結果，並整理可供重現的 Bug Report。
 
+## 作品集文件導覽
+
+| 文件 | 內容 |
+| --- | --- |
+| [測試案例（Test Cases）](test-cases.md) | 8 組案例、前置條件、預期／實際結果與 PASS／FAIL／RETEST 狀態 |
+| [缺陷回報（Bug Reports）](bug-reports.md) | 三項缺陷的重現步驟、影響、驗證狀態與後續複測建議 |
+| [測試總結（Test Summary）](test-summary.md) | 需求覆蓋、測試統計、風險限制與改善計畫 |
+| [原始測試紀錄](test-report.md) | 初始手動操作紀錄（供追溯） |
+
+**執行結果：** 8 組紀錄，5 PASS、2 FAIL、1 RETEST。大小寫異常仍需獨立複測；此為含刻意缺陷的模擬練習，不代表企業正式產品測試。
+
 ## 專案目標
 
 透過這份作品，練習從需求理解、測試設計、測試執行到缺陷回報的基本 QA 工作流程。
